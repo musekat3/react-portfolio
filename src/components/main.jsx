@@ -1,6 +1,12 @@
-import ReactDOM from 'react-dom/client';
-// Bringing in the required imports from 'react-router-dom' to set up application routing behavior
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+// import ReactDOM from 'react-dom/client';
+// // Bringing in the required imports from 'react-router-dom' to set up application routing behavior
+// import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
+ReactDOM.render(<App />, document.getElementById('root'));
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
