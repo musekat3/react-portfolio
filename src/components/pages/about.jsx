@@ -1,4 +1,3 @@
-// This is a static page mocking an "About Us" section for our fake user data
 export default function AboutPage() {
     return (
       <div className="container pt-4">
@@ -35,7 +34,7 @@ export default function AboutPage() {
                   <div className="features-icons-icon d-flex">
                     <i className="bi-terminal m-auto text-primary" />
                   </div>
-                  <h3>Easy to Use</h3>
+                  <h3></h3>
                   <p className="lead mb-0">
                    
                   </p>
